@@ -1,6 +1,41 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
+.btn-rounded-whatup {
+    position: relative;
+    padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    border: 0.1rem solid rgba($white, 0.6);
+    background-color: $white;
+    display: block;
+
+    span {
+        position: absolute;
+        background-color: $primary;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+
+        i {
+            color: $white;
+            font-size: 2rem;
+            line-height: 2rem;
+            padding: 0.25rem 0.375rem;
+        }
+    }
+    &:hover {
+        @include gradient;
+        color: $whatsup-number;
+        span {
+            background-color: $whatsup-icon;
+        }
+    }
+}
+
 .btn-rounded {
     position: relative;
     padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
@@ -8,6 +43,8 @@
     margin: 0;
     border: 0.1rem solid rgba($white, 0.6);
     background-color: $white;
+    color: $black;
+    // display: block;
 
     span {
         position: absolute;
@@ -29,5 +66,8 @@
     &:hover {
         @include gradient;
         color: $white;
+        span {
+            background-color: rgba($black, 0.6);
+        }
     }
 }

@@ -6,10 +6,17 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--  START SECTION 1 - THE NAVBAR SECTION -->
-    <nav class="navbar navbar-expand-lg menu data-bs-theme='dark'">
+    <nav class="navbar navbar-expand-lg menu navbar-dark shadow fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="logo image" />
@@ -49,13 +56,34 @@
               <a class="nav-link" href="#">contact</a>
             </li>
           </ul>
-          <buttom type="button" class="rounded-pill bg-light btn-rounded"
+          <buttom type="button" class="rounded-pill bg-light btn-rounded-whatup"
             >+62 81999977969 <span><i class="fa-brands fa-whatsapp"></i></span
           ></buttom>
         </div>
       </div>
     </nav>
-
+    <!-- start the intro section -->
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row align-items-center text-white">
+          <div class="col-md-6 intro">
+            <h1 class="display-2">
+              <span class="display-2--intro">Hey!, I'm Wisnawa</span>
+              <span class="display-2--description lh-base"
+                >As a licensed IT Specialist with over 15 years of experience, i
+                have gained a wealth of knowledge in software, hardware,
+                networking, cyber security, and data center system
+                administrator.</span
+              >
+            </h1>
+            <buttom type="button" class="rounded-pill bg-light btn-rounded"
+              >Get in Touch <span><i class="fa-solid fa-arrow-right"></i></span
+            ></buttom>
+          </div>
+          <div class="col-md-6 intro"></div>
+        </div>
+      </div>
+    </section>
     <script src="/assets/js/bootstrap.bundle.js"></script>
   </body>
 </html>
