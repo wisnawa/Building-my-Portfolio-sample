@@ -32,6 +32,47 @@ $accordion-icon-width:                    1.875rem;
 $accordion-button-icon:         url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-color}'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16'/><path d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4'/></svg>");
 $accordion-button-active-icon:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$accordion-icon-active-color}'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16'/><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8'/></svg>");
 
+// $breakpoints: (
+//   xs: 0,
+//   sm: 576px,
+//   md: 768px,
+//   lg: 992px,
+//   xl: 1200px,
+//   xxl: 1400px
+// );
+
+// @mixin media-breakpoint-up($map-get) {
+//     @media (min-width: map-get($breakpoints, "xs")) {
+//       @content;
+//     }
+//   }
+// @mixin media-breakpoint-up($breakpoints) {
+//     @media (min-width: map-get($breakpoints, "sm")) {
+//       @content;
+//     }
+//   }
+// @mixin media-breakpoint-up($breakpoints) {
+//     @media (min-width: map-get($breakpoints, "md")) {
+//       @content;
+//     }
+//   }
+// @mixin media-breakpoint-up($breakpoints) {
+//     @media (min-width: map-get($breakpoints, "lg")) {
+//       @content;
+//     }
+//   }
+// @mixin media-breakpoint-up($breakpoints) {
+//     @media (min-width: map-get($breakpoints, "xl")) {
+//       @content;
+//     }
+//   }
+// @mixin media-breakpoint-up($breakpoints) {
+//     @media (min-width: map-get($breakpoints, "xxl")) {
+//       @content;
+//     }
+//   }
+
+
 // import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
